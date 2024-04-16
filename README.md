@@ -1,2 +1,2 @@
 # NatDexExtension
-IronMON Tracker extension for Nat. Dex ROM Hack support
+Extension du tracker IronMON pour le support du hack Pokédex National
