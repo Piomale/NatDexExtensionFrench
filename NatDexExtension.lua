@@ -1,6 +1,6 @@
 local function NatDexExtension()
 	local self = {
-		version = "1.1.1",
+		version = "1.1.2",
 		name = "Nat. Dex",
 		author = "CyanSixFour, UTDZac",
 		description = "Extension that allows for compatibility with the Emerald & FireRed Nat. Dex ROM hacks.",
