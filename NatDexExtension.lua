@@ -1,6 +1,6 @@
 local function NatDexExtension()
 	local self = {
-		version = "1.1.0",
+		version = "1.1.1",
 		name = "Nat. Dex",
 		author = "CyanSixFour, UTDZac",
 		description = "Extension that allows for compatibility with the Emerald & FireRed Nat. Dex ROM hacks.",
@@ -6730,10 +6730,6 @@ local function NatDexExtension()
 		-- New Pokemon types
 		Drawing.ImagePaths.PokemonType.getOverridePath = function(this, value)
 			return self.Paths.TypeSprites.builtPath .. value .. self.Paths.TypeSprites.fileType
-		end
-		Drawing.ImagePaths.PokemonType.shouldUseOverride = function(this, value)
-			-- Only use custom path if it's the fairy type
-			return value == "fairy"
 		end
 	end
 
